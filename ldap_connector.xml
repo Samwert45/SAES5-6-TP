@@ -1,0 +1,874 @@
+<resource xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="a0c5692a-a3ae-43a6-87e4-ee2ca0e141a3" version="12">
+    <name>RH connecteur</name>
+    <metadata>
+        <requestTimestamp>2025-11-12T13:46:07.085Z</requestTimestamp>
+        <requestorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </requestorRef>
+        <createTimestamp>2025-11-12T13:46:07.542Z</createTimestamp>
+        <creatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </creatorRef>
+        <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+        <modifyTimestamp>2025-11-12T14:14:08.263Z</modifyTimestamp>
+        <modifierRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </modifierRef>
+        <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+    </metadata>
+    <lifecycleState>active</lifecycleState>
+    <operationExecution id="5">
+        <recordType>simple</recordType>
+        <timestamp>2025-11-12T13:49:27.713Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:ResourceType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000028557</token>
+            </executionResult>
+            <objectName>RH connecteur</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+    </operationExecution>
+    <operationExecution id="13">
+        <recordType>simple</recordType>
+        <timestamp>2025-11-12T13:55:49.251Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:ResourceType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000029803</token>
+            </executionResult>
+            <objectName>RH connecteur</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+    </operationExecution>
+    <operationExecution id="15">
+        <recordType>simple</recordType>
+        <timestamp>2025-11-12T14:05:39.589Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:ResourceType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000031263</token>
+            </executionResult>
+            <objectName>RH connecteur</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+    </operationExecution>
+    <operationExecution id="16">
+        <recordType>simple</recordType>
+        <timestamp>2025-11-12T14:08:20.695Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:ResourceType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000032400</token>
+            </executionResult>
+            <objectName>RH connecteur</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+    </operationExecution>
+    <operationExecution id="17">
+        <recordType>simple</recordType>
+        <timestamp>2025-11-12T14:14:08.369Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:ResourceType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000034466</token>
+            </executionResult>
+            <objectName>RH connecteur</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+    </operationExecution>
+    <iteration>0</iteration>
+    <iterationToken/>
+    <operationalState>
+        <lastAvailabilityStatus>up</lastAvailabilityStatus>
+        <message>Status set to UP because resource schema was successfully fetched</message>
+        <timestamp>2025-11-12T13:46:11.214Z</timestamp>
+        <nodeId>DefaultNode</nodeId>
+    </operationalState>
+    <operationalStateHistory id="3">
+        <lastAvailabilityStatus>up</lastAvailabilityStatus>
+        <message>Status set to UP because resource schema was successfully fetched</message>
+        <timestamp>2025-11-12T13:46:11.214Z</timestamp>
+        <nodeId>DefaultNode</nodeId>
+    </operationalStateHistory>
+    <connectorRef oid="1394040b-4204-4a1e-8c5f-5afdcac8ea1a" relation="org:default" type="c:ConnectorType">
+        <!-- ConnId com.evolveum.polygon.connector.ldap.LdapConnector v3.7 -->
+    </connectorRef>
+    <connectorConfiguration xmlns:icfc="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/connector-schema-3">
+        <icfc:configurationProperties xmlns:gen15="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/bundle/com.evolveum.polygon.connector-ldap/com.evolveum.polygon.connector.ldap.LdapConnector">
+            <gen15:host>172.17.0.1</gen15:host>
+            <gen15:port>10389</gen15:port>
+            <gen15:connectionSecurity>none</gen15:connectionSecurity>
+            <gen15:bindDn>uid=admin,ou=system</gen15:bindDn>
+            <gen15:bindPassword>
+                <t:encryptedData>
+                    <t:encryptionMethod>
+                        <t:algorithm>http://www.w3.org/2001/04/xmlenc#aes256-cbc</t:algorithm>
+                    </t:encryptionMethod>
+                    <t:keyInfo>
+                        <t:keyName>h2R0KvyhPkXITVbduifMzOmNIy4=</t:keyName>
+                    </t:keyInfo>
+                    <t:cipherData>
+                        <t:cipherValue>6KV62XwbUfJYHYYO79BnKpz431YxF2/Oo1f0K0D66wo=</t:cipherValue>
+                    </t:cipherData>
+                </t:encryptedData>
+            </gen15:bindPassword>
+            <gen15:baseContext>dc=openmicroscopy,dc=org</gen15:baseContext>
+        </icfc:configurationProperties>
+    </connectorConfiguration>
+    <schema>
+        <cachingMetadata>
+            <retrievalTimestamp>2025-11-12T13:46:11.213Z</retrievalTimestamp>
+            <serialNumber>e2ba120b3bed5b6c-be3d364d815b529e</serialNumber>
+        </cachingMetadata>
+        <generationConstraints>
+            <generateObjectClass>ri:inetOrgPerson</generateObjectClass>
+        </generationConstraints>
+        <definition>
+            <xsd:schema xmlns:a="http://prism.evolveum.com/xml/ns/public/annotation-3" xmlns:ra="http://midpoint.evolveum.com/xml/ns/public/resource/annotation-3" xmlns:tns="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xml:space="preserve">
+                <xsd:import namespace="http://prism.evolveum.com/xml/ns/public/annotation-3"/>
+                <xsd:import namespace="http://midpoint.evolveum.com/xml/ns/public/resource/annotation-3"/>
+                <xsd:complexType name="inetOrgPerson">
+                    <xsd:annotation>
+                        <xsd:appinfo>
+                            <a:container/>
+                            <ra:resourceObject/>
+                            <ra:identifier>ri:entryUUID</ra:identifier>
+                            <ra:secondaryIdentifier>ri:dn</ra:secondaryIdentifier>
+                            <ra:displayNameAttribute>ri:dn</ra:displayNameAttribute>
+                            <ra:namingAttribute>ri:dn</ra:namingAttribute>
+                            <ra:nativeObjectClass>inetOrgPerson</ra:nativeObjectClass>
+                        </xsd:appinfo>
+                    </xsd:annotation>
+                    <xsd:sequence>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="initials" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>initials</a:displayName>
+                                    <a:displayOrder>120</a:displayOrder>
+                                    <a:matchingRule xmlns:qn57="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn57:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>initials</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>initials</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="homePhone" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>homePhone</a:displayName>
+                                    <a:displayOrder>130</a:displayOrder>
+                                    <ra:nativeAttributeName>homePhone</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>homePhone</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="audio" type="xsd:base64Binary">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>audio</a:displayName>
+                                    <a:displayOrder>140</a:displayOrder>
+                                    <ra:nativeAttributeName>audio</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>audio</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="mail" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>mail</a:displayName>
+                                    <a:displayOrder>150</a:displayOrder>
+                                    <a:matchingRule xmlns:qn961="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn961:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>mail</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>mail</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="carLicense" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>carLicense</a:displayName>
+                                    <a:displayOrder>160</a:displayOrder>
+                                    <a:matchingRule xmlns:qn269="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn269:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>carLicense</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>carLicense</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="departmentNumber" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>departmentNumber</a:displayName>
+                                    <a:displayOrder>170</a:displayOrder>
+                                    <a:matchingRule xmlns:qn7="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn7:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>departmentNumber</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>departmentNumber</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="manager" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>manager</a:displayName>
+                                    <a:displayOrder>180</a:displayOrder>
+                                    <a:matchingRule xmlns:qn370="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn370:distinguishedName</a:matchingRule>
+                                    <ra:nativeAttributeName>manager</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>manager</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="businessCategory" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>businessCategory</a:displayName>
+                                    <a:displayOrder>190</a:displayOrder>
+                                    <a:matchingRule xmlns:qn554="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn554:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>businessCategory</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>businessCategory</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="homePostalAddress" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>homePostalAddress</a:displayName>
+                                    <a:displayOrder>200</a:displayOrder>
+                                    <ra:nativeAttributeName>homePostalAddress</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>homePostalAddress</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="secretary" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>secretary</a:displayName>
+                                    <a:displayOrder>210</a:displayOrder>
+                                    <a:matchingRule xmlns:qn824="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn824:distinguishedName</a:matchingRule>
+                                    <ra:nativeAttributeName>secretary</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>secretary</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="photo" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>photo</a:displayName>
+                                    <a:displayOrder>220</a:displayOrder>
+                                    <ra:nativeAttributeName>photo</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>photo</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="labeledURI" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>labeledURI</a:displayName>
+                                    <a:displayOrder>230</a:displayOrder>
+                                    <ra:nativeAttributeName>labeledURI</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>labeledURI</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="displayName" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>displayName</a:displayName>
+                                    <a:displayOrder>240</a:displayOrder>
+                                    <a:matchingRule xmlns:qn678="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn678:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>displayName</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>displayName</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="pager" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>pager</a:displayName>
+                                    <a:displayOrder>250</a:displayOrder>
+                                    <ra:nativeAttributeName>pager</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>pager</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="roomNumber" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>roomNumber</a:displayName>
+                                    <a:displayOrder>260</a:displayOrder>
+                                    <a:matchingRule xmlns:qn508="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn508:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>roomNumber</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>roomNumber</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="physicalDeliveryOfficeName" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>physicalDeliveryOfficeName</a:displayName>
+                                    <a:displayOrder>270</a:displayOrder>
+                                    <a:matchingRule xmlns:qn557="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn557:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>physicalDeliveryOfficeName</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>physicalDeliveryOfficeName</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="uid" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>uid</a:displayName>
+                                    <a:displayOrder>280</a:displayOrder>
+                                    <a:matchingRule xmlns:qn952="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn952:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>uid</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>uid</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="seeAlso" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>seeAlso</a:displayName>
+                                    <a:displayOrder>290</a:displayOrder>
+                                    <a:matchingRule xmlns:qn92="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn92:distinguishedName</a:matchingRule>
+                                    <ra:nativeAttributeName>seeAlso</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>seeAlso</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="destinationIndicator" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>destinationIndicator</a:displayName>
+                                    <a:displayOrder>300</a:displayOrder>
+                                    <a:matchingRule xmlns:qn646="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn646:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>destinationIndicator</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>destinationIndicator</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="postalAddress" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>postalAddress</a:displayName>
+                                    <a:displayOrder>310</a:displayOrder>
+                                    <ra:nativeAttributeName>postalAddress</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>postalAddress</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="preferredLanguage" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>preferredLanguage</a:displayName>
+                                    <a:displayOrder>320</a:displayOrder>
+                                    <a:matchingRule xmlns:qn107="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn107:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>preferredLanguage</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>preferredLanguage</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="preferredDeliveryMethod" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>preferredDeliveryMethod</a:displayName>
+                                    <a:displayOrder>330</a:displayOrder>
+                                    <ra:nativeAttributeName>preferredDeliveryMethod</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>preferredDeliveryMethod</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="facsimileTelephoneNumber" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>facsimileTelephoneNumber</a:displayName>
+                                    <a:displayOrder>340</a:displayOrder>
+                                    <ra:nativeAttributeName>facsimileTelephoneNumber</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>facsimileTelephoneNumber</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="employeeType" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>employeeType</a:displayName>
+                                    <a:displayOrder>350</a:displayOrder>
+                                    <a:matchingRule xmlns:qn842="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn842:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>employeeType</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>employeeType</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="internationaliSDNNumber" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>internationaliSDNNumber</a:displayName>
+                                    <a:displayOrder>360</a:displayOrder>
+                                    <ra:nativeAttributeName>internationaliSDNNumber</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>internationaliSDNNumber</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="postOfficeBox" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>postOfficeBox</a:displayName>
+                                    <a:displayOrder>370</a:displayOrder>
+                                    <a:matchingRule xmlns:qn55="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn55:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>postOfficeBox</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>postOfficeBox</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="telephoneNumber" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>telephoneNumber</a:displayName>
+                                    <a:displayOrder>380</a:displayOrder>
+                                    <ra:nativeAttributeName>telephoneNumber</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>telephoneNumber</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="l" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>l</a:displayName>
+                                    <a:displayOrder>390</a:displayOrder>
+                                    <a:matchingRule xmlns:qn18="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn18:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>l</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>l</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="employeeNumber" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>employeeNumber</a:displayName>
+                                    <a:displayOrder>400</a:displayOrder>
+                                    <a:matchingRule xmlns:qn81="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn81:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>employeeNumber</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>employeeNumber</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="jpegPhoto" type="xsd:base64Binary">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>jpegPhoto</a:displayName>
+                                    <a:displayOrder>410</a:displayOrder>
+                                    <ra:nativeAttributeName>jpegPhoto</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>jpegPhoto</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="o" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>o</a:displayName>
+                                    <a:displayOrder>420</a:displayOrder>
+                                    <a:matchingRule xmlns:qn141="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn141:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>o</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>o</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="userPKCS12" type="xsd:base64Binary">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>userPKCS12</a:displayName>
+                                    <a:displayOrder>430</a:displayOrder>
+                                    <ra:nativeAttributeName>userPKCS12</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>userPKCS12</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="description" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>description</a:displayName>
+                                    <a:displayOrder>440</a:displayOrder>
+                                    <a:matchingRule xmlns:qn150="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn150:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>description</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>description</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element name="dn" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>dn</a:displayName>
+                                    <a:displayOrder>110</a:displayOrder>
+                                    <a:matchingRule xmlns:qn229="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn229:distinguishedName</a:matchingRule>
+                                    <ra:nativeAttributeName>dn</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>__NAME__</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" name="sn" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>sn</a:displayName>
+                                    <a:displayOrder>450</a:displayOrder>
+                                    <a:matchingRule xmlns:qn654="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn654:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>sn</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>sn</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="givenName" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>givenName</a:displayName>
+                                    <a:displayOrder>460</a:displayOrder>
+                                    <a:matchingRule xmlns:qn184="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn184:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>givenName</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>givenName</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="telexNumber" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>telexNumber</a:displayName>
+                                    <a:displayOrder>470</a:displayOrder>
+                                    <ra:nativeAttributeName>telexNumber</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>telexNumber</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="postalCode" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>postalCode</a:displayName>
+                                    <a:displayOrder>480</a:displayOrder>
+                                    <a:matchingRule xmlns:qn366="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn366:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>postalCode</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>postalCode</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="userSMIMECertificate" type="xsd:base64Binary">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>userSMIMECertificate</a:displayName>
+                                    <a:displayOrder>490</a:displayOrder>
+                                    <ra:nativeAttributeName>userSMIMECertificate</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>userSMIMECertificate</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="userCertificate" type="xsd:base64Binary">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>userCertificate</a:displayName>
+                                    <a:displayOrder>500</a:displayOrder>
+                                    <ra:nativeAttributeName>userCertificate</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>userCertificate</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="st" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>st</a:displayName>
+                                    <a:displayOrder>510</a:displayOrder>
+                                    <a:matchingRule xmlns:qn387="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn387:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>st</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>st</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="teletexTerminalIdentifier" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>teletexTerminalIdentifier</a:displayName>
+                                    <a:displayOrder>520</a:displayOrder>
+                                    <ra:nativeAttributeName>teletexTerminalIdentifier</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>teletexTerminalIdentifier</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="ou" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>ou</a:displayName>
+                                    <a:displayOrder>530</a:displayOrder>
+                                    <a:matchingRule xmlns:qn203="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn203:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>ou</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>ou</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="street" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>street</a:displayName>
+                                    <a:displayOrder>540</a:displayOrder>
+                                    <a:matchingRule xmlns:qn993="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn993:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>street</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>street</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" name="cn" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>cn</a:displayName>
+                                    <a:displayOrder>550</a:displayOrder>
+                                    <a:matchingRule xmlns:qn708="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn708:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>cn</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>cn</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="registeredAddress" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>registeredAddress</a:displayName>
+                                    <a:displayOrder>560</a:displayOrder>
+                                    <ra:nativeAttributeName>registeredAddress</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>registeredAddress</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="x121Address" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>x121Address</a:displayName>
+                                    <a:displayOrder>570</a:displayOrder>
+                                    <ra:nativeAttributeName>x121Address</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>x121Address</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="title" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>title</a:displayName>
+                                    <a:displayOrder>580</a:displayOrder>
+                                    <a:matchingRule xmlns:qn643="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn643:stringIgnoreCase</a:matchingRule>
+                                    <ra:nativeAttributeName>title</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>title</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="x500UniqueIdentifier" type="xsd:base64Binary">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>x500UniqueIdentifier</a:displayName>
+                                    <a:displayOrder>590</a:displayOrder>
+                                    <ra:nativeAttributeName>x500UniqueIdentifier</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>x500UniqueIdentifier</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="mobile" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>mobile</a:displayName>
+                                    <a:displayOrder>600</a:displayOrder>
+                                    <ra:nativeAttributeName>mobile</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>mobile</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="entryUUID" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayName>entryUUID</a:displayName>
+                                    <a:displayOrder>100</a:displayOrder>
+                                    <a:access>read</a:access>
+                                    <a:matchingRule xmlns:qn866="http://prism.evolveum.com/xml/ns/public/matching-rule-3">qn866:uuid</a:matchingRule>
+                                    <ra:nativeAttributeName>entryUUID</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>__UID__</ra:frameworkAttributeName>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:any maxOccurs="unbounded" minOccurs="0" namespace="##other" processContents="lax"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:schema>
+        </definition>
+    </schema>
+    <schemaHandling>
+        <objectType id="4">
+            <kind>account</kind>
+            <intent>default</intent>
+            <displayName>Default Account</displayName>
+            <default>true</default>
+            <delineation>
+                <objectClass>ri:inetOrgPerson</objectClass>
+                <searchHierarchyScope>one</searchHierarchyScope>
+            </delineation>
+            <focus>
+                <type>c:UserType</type>
+            </focus>
+            <attribute id="6">
+                <ref>ri:dn</ref>
+                <outbound>
+                    <name>dn</name>
+                    <strength>strong</strength>
+                    <source>
+                        <path>$focus/name</path>
+                    </source>
+                    <expression>
+                        <script>
+                            <code>'uid=' + name + ',ou=users,dc=openmicroscopy,dc=org'</code>
+                        </script>
+                    </expression>
+                </outbound>
+            </attribute>
+            <attribute id="7">
+                <ref>ri:cn</ref>
+                <outbound>
+                    <name>cn</name>
+                    <strength>strong</strength>
+                    <source>
+                        <path>$focus/fullName</path>
+                    </source>
+                </outbound>
+            </attribute>
+            <attribute id="8">
+                <ref>ri:sn</ref>
+                <outbound>
+                    <name>sn</name>
+                    <strength>strong</strength>
+                    <source>
+                        <path>$focus/familyName</path>
+                    </source>
+                </outbound>
+            </attribute>
+            <attribute id="9">
+                <ref>ri:givenName</ref>
+                <outbound>
+                    <name>givenName</name>
+                    <strength>strong</strength>
+                    <source>
+                        <path>$focus/givenName</path>
+                    </source>
+                </outbound>
+            </attribute>
+            <attribute id="10">
+                <ref>ri:mail</ref>
+                <outbound>
+                    <name>mail</name>
+                    <strength>strong</strength>
+                    <source>
+                        <path>$focus/emailAddress</path>
+                    </source>
+                </outbound>
+            </attribute>
+            <attribute id="11">
+                <ref>ri:telephoneNumber</ref>
+                <outbound>
+                    <name>telephoneNumber</name>
+                    <strength>strong</strength>
+                    <source>
+                        <path>$focus/telephoneNumber</path>
+                    </source>
+                </outbound>
+            </attribute>
+            <attribute id="12">
+                <ref>ri:departmentNumber</ref>
+                <outbound>
+                    <name>departementNumber</name>
+                    <strength>strong</strength>
+                    <source>
+                        <path>$focus/organizationalUnit</path>
+                    </source>
+                </outbound>
+            </attribute>
+            <attribute id="14">
+                <ref>ri:uid</ref>
+                <outbound>
+                    <name>uid</name>
+                    <strength>strong</strength>
+                    <source>
+                        <path>$focus/name</path>
+                    </source>
+                </outbound>
+            </attribute>
+        </objectType>
+    </schemaHandling>
+    <capabilities>
+        <cachingMetadata>
+            <retrievalTimestamp>2025-11-12T13:46:11.191Z</retrievalTimestamp>
+            <serialNumber>ec153116f367d945-4df9c758a2273025</serialNumber>
+        </cachingMetadata>
+        <native xmlns:cap="http://midpoint.evolveum.com/xml/ns/public/resource/capabilities-3">
+            <cap:schema/>
+            <cap:discoverConfiguration/>
+            <cap:credentials>
+                <cap:password>
+                    <cap:returnedByDefault>false</cap:returnedByDefault>
+                </cap:password>
+            </cap:credentials>
+            <cap:liveSync/>
+            <cap:create/>
+            <cap:read>
+                <cap:returnDefaultAttributesOption>true</cap:returnDefaultAttributesOption>
+            </cap:read>
+            <cap:update>
+                <cap:delta>true</cap:delta>
+                <cap:addRemoveAttributeValues>true</cap:addRemoveAttributeValues>
+            </cap:update>
+            <cap:delete/>
+            <cap:testConnection/>
+            <cap:script>
+                <cap:host id="2">
+                    <cap:type>connector</cap:type>
+                </cap:host>
+            </cap:script>
+            <cap:pagedSearch/>
+            <cap:auxiliaryObjectClasses/>
+        </native>
+    </capabilities>
+</resource>
